@@ -3,8 +3,9 @@ package br.com.fiap.repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import br.com.fiap.entity.Produto;
+import br.com.fiap.entity.Cliente;
 
 @Repository
-public interface ProdutoRepository extends JpaRepository<Produto, Long> {
+public interface ClienteRepository extends JpaRepository<Cliente, Long>{
+
 }
